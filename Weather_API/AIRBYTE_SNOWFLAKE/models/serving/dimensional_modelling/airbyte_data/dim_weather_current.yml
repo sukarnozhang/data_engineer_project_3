@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: dim_weather_current
+    columns:
+      - name: weather_current_key
+        tests:
+          - not_null
+          

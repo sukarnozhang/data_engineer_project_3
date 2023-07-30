@@ -1,0 +1,6 @@
+version: 2
+
+seeds:
+  - name: weather_codes
+    config:
+      schema: AIRBYTE_SCHEMA

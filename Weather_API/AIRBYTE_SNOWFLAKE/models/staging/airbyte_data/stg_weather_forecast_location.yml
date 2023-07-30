@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: stg_weather_forecast_location
+    columns:
+      - name: _AIRBYTE_CALIFORNIA_FORECAST_HASHID
+        tests:
+          - not_null
+          

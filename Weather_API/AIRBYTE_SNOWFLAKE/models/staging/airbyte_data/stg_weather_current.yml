@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: stg_weather_current
+    columns:
+      - name: _AIRBYTE_CURRENT_HASHID
+        tests:
+          - not_null
+          

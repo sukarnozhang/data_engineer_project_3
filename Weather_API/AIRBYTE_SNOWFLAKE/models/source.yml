@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: AIRBYTE_SCHEMA
+    database: AIRBYTE_DATABASE
+    schema: AIRBYTE_SCHEMA
+    tables:
+      - name: CALIFORNIA_CURRENT_WEATHER_CURRENT
+        description: ''
+      - name: CALIFORNIA_CURRENT_WEATHER_LOCATION
+        description: ''
+      - name: CALIFORNIA_FORECAST_CURRENT
+        description: ''
+      - name: CALIFORNIA_FORECAST_LOCATION
+        description: ''
+      - name: TOPIC1
+        description: ''

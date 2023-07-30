@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: stg_weather_current_location
+    columns:
+      - name: _AIRBYTE_CALIFORNIA_CURRENT_WEATHER_HASHID
+        tests:
+          - not_null
+          

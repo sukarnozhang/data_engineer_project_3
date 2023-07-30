@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: stg_jakarta_kafka_alias
+    columns:
+      - name: Weather_Code
+        tests:
+          - not_null
+          
